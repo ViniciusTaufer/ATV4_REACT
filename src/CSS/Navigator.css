@@ -1,0 +1,36 @@
+
+nav {
+    background-color: #1e293b;
+    border-bottom: 1px solid #334155;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    list-style: none;
+
+    padding: 15px 0;
+}
+
+.menu a {
+    color: #e2e8f0;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.menu a:hover {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 500px) {
+    .menu {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+}
